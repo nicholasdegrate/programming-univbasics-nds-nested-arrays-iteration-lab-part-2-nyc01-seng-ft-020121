@@ -7,5 +7,6 @@ def find_min_in_nested_arrays(src)
     count_index = 0
     a = array.min()
     while count_index < src[count].count do
-      if src[count][count_index].length > 
+      src[count][count_index].min()
+      count_index += 1
 end
